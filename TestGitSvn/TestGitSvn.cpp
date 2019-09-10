@@ -4,12 +4,17 @@
 #include "stdafx.h"
 #include <iostream>
 
+int addNumber(int a, int b)
+{
+	return a + b;
+}
+
 int main()
 {
 	std::cout << "hello world" << std::endl;
 	std::cout << "this is a fix bug1" << std::endl;
 	
-	int a = 0;
+	int a = addNumber(2, 3);
     return 0;
 }
 
