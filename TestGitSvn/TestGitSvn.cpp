@@ -4,6 +4,12 @@
 #include "stdafx.h"
 #include <iostream>
 
+struct Matrix
+{
+	int x;
+	int y;
+};
+
 int addNumber(int a, int b)
 {
 	return a + b;
