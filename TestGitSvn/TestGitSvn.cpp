@@ -4,6 +4,11 @@
 #include "stdafx.h"
 #include <iostream>
 
+class Calcu
+{
+	
+};
+
 struct Matrix
 {
 	int x;
