@@ -42,6 +42,11 @@ int divNumber(int a, int b)
 	return a / b;
 }
 
+int getNumber()
+{
+	return 123;
+}
+
 int main()
 {
 	std::cout << "hello world" << std::endl;
