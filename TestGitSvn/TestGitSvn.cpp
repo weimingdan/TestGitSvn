@@ -14,6 +14,11 @@ int subNumber(int a, int b)
 	return a - b;
 }
 
+int multi(int a, int b)
+{
+	return a*b;
+}
+
 int main()
 {
 	std::cout << "hello world" << std::endl;
