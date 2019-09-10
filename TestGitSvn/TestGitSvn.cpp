@@ -42,9 +42,9 @@ int divNumber(int a, int b)
 	return a / b;
 }
 
-int getNumber()
+int getNumber(int a)
 {
-	return 123;
+	return a + 123;
 }
 
 int main()
