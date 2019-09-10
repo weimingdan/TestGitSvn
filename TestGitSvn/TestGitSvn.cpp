@@ -9,6 +9,11 @@ int addNumber(int a, int b)
 	return a + b;
 }
 
+int subNumber(int a, int b)
+{
+	return a - b;
+}
+
 int main()
 {
 	std::cout << "hello world" << std::endl;
