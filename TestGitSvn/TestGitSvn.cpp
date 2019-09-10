@@ -4,6 +4,11 @@
 #include "stdafx.h"
 #include <iostream>
 
+class Calcu
+{
+	
+};
+
 int addNumber(int a, int b)
 {
 	return a + b;
