@@ -13,6 +13,7 @@ int main()
 {
 	std::cout << "hello world" << std::endl;
 	std::cout << "this is a fix bug1" << std::endl;
+	std::cout << "please commit something" << std::endl;
 	
 	int a = addNumber(2, 3);
     return 0;
