@@ -6,7 +6,10 @@
 
 class Calcu
 {
-	
+	int cal()
+	{
+		return 0;
+	}
 };
 
 struct Matrix
