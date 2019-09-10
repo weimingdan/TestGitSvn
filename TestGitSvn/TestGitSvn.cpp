@@ -4,6 +4,20 @@
 #include "stdafx.h"
 #include <iostream>
 
+class Calcu
+{
+	int cal()
+	{
+		return 0;
+	}
+};
+
+struct Matrix
+{
+	int x;
+	int y;
+};
+
 int addNumber(int a, int b)
 {
 	return a + b;
@@ -12,6 +26,20 @@ int addNumber(int a, int b)
 int subNumber(int a, int b)
 {
 	return a - b;
+}
+
+int multi(int a, int b)
+{
+	return a*b;
+}
+
+int divNumber(int a, int b)
+{
+	if (b == 0)
+	{
+		return 0;
+	}
+	return a / b;
 }
 
 int main()
