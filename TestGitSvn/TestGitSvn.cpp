@@ -54,6 +54,7 @@ int main()
 	std::cout << "please commit something" << std::endl;
 	std::cout << "hot fix bug" << std::endl;
 	std::cout << "hot fix bug 111" << std::endl;
+	std::cout << "feature1" << std::endl;
 	
 	int a = addNumber(2, 3);
     return 0;
