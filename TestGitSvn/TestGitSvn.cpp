@@ -56,7 +56,7 @@ int main()
 	std::cout << "hot fix bug 111" << std::endl;
 	std::cout << "feature1" << std::endl;
 	std::cout << "release2" << std::endl;
-	std::cout << "this is a bug1" << std::endl;
+	std::cout << "this is &&&&& bug1" << std::endl;
 	std::cout << "this is 0.12.2" << std::endl;
 	
 	int a = addNumber(2, 3);
