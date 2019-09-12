@@ -59,7 +59,7 @@ int main()
 	std::cout << "this is &&&&& bug1" << std::endl;
 	std::cout << "this is 0.12.2d qwer" << std::endl;
 	std::cout << "this is 0.12.2d asdf 1234" << std::endl;
-	std::cout << "this is 0.12.2d asdf 4567" << std::endl;
+	std::cout << "this is 0.12.2d asdf 4567 vbn" << std::endl;
 	
 	int a = addNumber(2, 3);
     return 0;
