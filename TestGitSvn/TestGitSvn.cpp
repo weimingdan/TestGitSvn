@@ -57,7 +57,7 @@ int main()
 	std::cout << "feature1" << std::endl;
 	std::cout << "release2" << std::endl;
 	std::cout << "this is &&&&& bug1" << std::endl;
-	std::cout << "this is 0.12.2" << std::endl;
+	std::cout << "this is 0.12.2c" << std::endl;
 	
 	int a = addNumber(2, 3);
     return 0;
