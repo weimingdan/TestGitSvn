@@ -55,7 +55,6 @@ int main()
 	CORE_WARN("this is a Warn!");
 	CORE_ERROR("this is an Error!!");
 	CORE_FATAL("this is an error!!!");
-	int a = addNumber(2, 3);
     return 0;
 }
 
