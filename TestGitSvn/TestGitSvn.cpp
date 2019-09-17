@@ -3,7 +3,7 @@
 
 #include "stdafx.h"
 #include <iostream>
-
+#include "MyLog.h"
 class Calcu
 {
 	int cal()
@@ -49,18 +49,12 @@ int getNumber(int a)
 
 int main()
 {
-	std::cout << "hello world" << std::endl;
-	std::cout << "this is a fix bug1" << std::endl;
-	std::cout << "please commit something" << std::endl;
-	std::cout << "hot fix bug" << std::endl;
-	std::cout << "hot fix bug 111" << std::endl;
-	std::cout << "feature1" << std::endl;
-	std::cout << "release2" << std::endl;
-	std::cout << "this is &&&&& bug1" << std::endl;
-	std::cout << "this is 0.12.2d qwer" << std::endl;
-	std::cout << "this is 0.12.2d asdf 1234" << std::endl;
-	std::cout << "this is 0.12.2d asdf 4567 vbnb qwe b" << std::endl;
-	
+	Log::Init();
+	CORE_TRACE("this is a Trace log");
+	CORE_INFO("this is a Info log");
+	CORE_WARN("this is a Warn!");
+	CORE_ERROR("this is an Error!!");
+	CORE_FATAL("this is an error!!!");
 	int a = addNumber(2, 3);
     return 0;
 }
