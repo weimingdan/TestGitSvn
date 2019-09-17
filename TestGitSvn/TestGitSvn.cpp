@@ -56,6 +56,7 @@ int main()
 	CORE_ERROR("this is an Error!!");
 	CORE_FATAL("this is an error!!!");
 	CORE_INFO("release 0.1.2");
+	CORE_INFO("new request");
     return 0;
 }
 
