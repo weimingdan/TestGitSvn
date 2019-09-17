@@ -1,0 +1,3 @@
+[submodule "TestGitSvn/vendor/spdlog"]
+	path = TestGitSvn/vendor/spdlog
+	url = https://github.com/gabime/spdlog
