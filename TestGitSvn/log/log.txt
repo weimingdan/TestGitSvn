@@ -1,5 +1,0 @@
-[2019-09-17 11:08:00] [trace] [Git] this is a Trace log
-[2019-09-17 11:08:00] [info] [Git] this is a Info log
-[2019-09-17 11:08:00] [warning] [Git] this is a Warn!
-[2019-09-17 11:08:00] [error] [Git] this is an Error!!
-[2019-09-17 11:08:00] [critical] [Git] this is an error!!!
