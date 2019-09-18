@@ -53,6 +53,11 @@ struct MyClass
 	int b = 2;
 };
 
+void printLog()
+{
+	CORE_INFO("this is a log function: {0}[{1}]", __FUNCTION__, __LINE__);
+}
+
 int main()
 {
 	Log::Init();
