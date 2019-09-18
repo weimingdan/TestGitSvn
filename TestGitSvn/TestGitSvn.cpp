@@ -60,7 +60,7 @@ int main()
 	CORE_INFO("this is a Info log");
 	CORE_WARN("this is a Warn!");
 	CORE_ERROR("this is an Error!!");
-	CORE_FATAL("this is an error!!!");
+	CORE_FATAL("this is an Error!!!");
 	CORE_INFO("release 0.1.2");
 	auto obj = MyClass();
 	obj.a = 123;
