@@ -47,6 +47,12 @@ int getNumber(int a)
 	return a + 123;
 }
 
+struct MyClass
+{
+	int a = 0;
+	int b = 2;
+};
+
 int main()
 {
 	Log::Init();
@@ -56,7 +62,10 @@ int main()
 	CORE_ERROR("this is an Error!!");
 	CORE_FATAL("this is an error!!!");
 	CORE_INFO("release 0.1.2");
+	auto obj = MyClass();
+	obj.a = 123;
 	CORE_INFO("new request");
+	CORE_INFO("struct info: {0}", obj.a);
     return 0;
 }
 
