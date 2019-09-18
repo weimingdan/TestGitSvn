@@ -51,12 +51,22 @@ struct MyClass
 {
 	int a = 0;
 	int b = 2;
+	void myLog()
+	{
+		CORE_INFOD("oh my log");
+	}
 };
+
+void printLog()
+{
+	// CORE_INFO("this is a log function: {0}[{1}]", __FUNCTION__, __LINE__);
+	CORE_INFOD("THIS IS detail info {} {} {}", 1, "AAA", "BBB");
+
+}
 
 int main()
 {
 	Log::Init();
-	CORE_TRACE("this is a Trace log");
 	CORE_INFO("this is a Info log");
 	CORE_WARN("this is a Warn!");
 	CORE_ERROR("this is an Error!!");
@@ -66,6 +76,10 @@ int main()
 	obj.a = 123;
 	CORE_INFO("new request");
 	CORE_INFO("struct info: {0}", obj.a);
+	printLog();
+	obj.myLog();
+	CORE_ERRORD("error with detail info");
+	CORE_WARND("detail warning");
     return 0;
 }
 
